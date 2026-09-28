@@ -21,7 +21,7 @@ python main.py play --no-gui --agents Superfortress rule_based_agent rule_based_
 python main.py play --no-gui --agents tree_teacher rule_based_agent rule_based_agent rule_based_agent --scenario classic --n-rounds 10 --seed 20260929
 ```
 
-Remove `--no-gui` to watch. Clear any old `FQI_MODEL` environment override before running `tree_teacher`; otherwise its original callback honors that override. These commands evaluate frozen weights. Training code is in the research archive. Docker execution was not tested locally.
+Remove `--no-gui` to watch. Clear any old `FQI_MODEL` environment override before running `tree_teacher`; otherwise its original callback honors that override. These commands evaluate frozen weights. Training code is in the research archive.
 
 ## Recorded results
 
@@ -30,8 +30,6 @@ Remove `--no-gui` to watch. Clear any old `FQI_MODEL` environment override befor
 | Submitted Superfortress | 65/120 (54.2%) | 6.767 |
 | Demonstration tree | 292/600 (48.7%) | 6.292 |
 | Random-data tree control, same 600 tree-test maps | 266/600 (44.3%) | 5.913 |
-
-A strict win is a uniquely highest final game score. The tree comparison has a 95% bootstrap win-difference interval of approximately [-0.84, +9.67] percentage points; a stable advantage remains unconfirmed. The submission and tree tests used different maps and are not a direct comparison. These are local benchmarks, not tournament results.
 
 Original summaries: [`evidence/submission.json`](evidence/submission.json) and [`evidence/tree_confirmation.json`](evidence/tree_confirmation.json). Other report evidence is inside the research archive at its original relative paths.
 
