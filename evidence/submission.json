@@ -1,0 +1,68 @@
+{
+  "results": {
+    "adopted": {
+      "mixed": {
+        "rounds": 60,
+        "totals": {
+          "win": 29.0,
+          "score": 443.0,
+          "survived": 58.0,
+          "suicides": 1.0,
+          "coins": 228.0,
+          "kills": 43.0
+        },
+        "means": {
+          "win": 0.48333333333333334,
+          "score": 7.383333333333334,
+          "survived": 0.9666666666666667,
+          "suicides": 0.016666666666666666,
+          "coins": 3.8,
+          "kills": 0.7166666666666667
+        }
+      },
+      "strong": {
+        "rounds": 60,
+        "totals": {
+          "win": 36.0,
+          "score": 369.0,
+          "survived": 53.0,
+          "suicides": 5.0,
+          "coins": 169.0,
+          "kills": 40.0
+        },
+        "means": {
+          "win": 0.6,
+          "score": 6.15,
+          "survived": 0.8833333333333333,
+          "suicides": 0.08333333333333333,
+          "coins": 2.816666666666667,
+          "kills": 0.6666666666666666
+        }
+      },
+      "combined": {
+        "rounds": 120,
+        "totals": {
+          "win": 65.0,
+          "score": 812.0,
+          "survived": 111.0,
+          "suicides": 6.0,
+          "coins": 397.0,
+          "kills": 83.0
+        },
+        "means": {
+          "win": 0.5416666666666666,
+          "score": 6.766666666666667,
+          "survived": 0.925,
+          "suicides": 0.05,
+          "coins": 3.308333333333333,
+          "kills": 0.6916666666666667
+        }
+      }
+    }
+  },
+  "comparisons": {},
+  "distinct_maps": 120,
+  "prior_maps_checked": 18829,
+  "maps_paired": true,
+  "policy_seed": 42
+}

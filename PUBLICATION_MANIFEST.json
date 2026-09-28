@@ -1,0 +1,434 @@
+{
+  "format_version": 3,
+  "scope": "Two runnable main models plus complete research source archive",
+  "protected_artifacts": {
+    "agent_code/Superfortress/model.json": "7af75146369354d6162fa6b4311f5644ca489b418df543d79060f628fc9c5707",
+    "agent_code/tree_teacher/model.pkl": "b549995f80ab880bb3b64720bebf9d5db7f5186dcf71c67a15423174fe22bea1",
+    "release/final-project-agent-code.zip": "6f9af563c242bd4c6b787c7ded363db1fddfcf1d90de17de6f03d55b59bb4d0c"
+  },
+  "source_archive": {
+    "path": "research/source.zip",
+    "files": 1988,
+    "python_files": 900,
+    "distinct_python_implementations": 406,
+    "preserved_from_previous_export": 406
+  },
+  "omitted": [
+    "Historical trained weights",
+    "Raw trajectory datasets",
+    "Detailed runtime logs"
+  ],
+  "original_research_workspace_modified": false,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 89,
+      "sha256": "9fb2f865638ec015ef66e585e27a9f8fc853c2b9d42533ddc987be7116236658"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 244,
+      "sha256": "84e5bd4f2783d8c2d7ec984fd17a4d6622e331271efa674d7ee637c1fb420966"
+    },
+    {
+      "path": "agent_code/coin_collector_agent/callbacks.py",
+      "bytes": 7575,
+      "sha256": "d72f642ba60c0f903d34f45386cba8fe57bae037a9c2d305eeb8bf1ebf8510a7"
+    },
+    {
+      "path": "agent_code/fail_agent/callbacks.py",
+      "bytes": 127,
+      "sha256": "f20689992be0dda6cd91838845f06b9d5d5601f02d4681b0cf98428d4d43a088"
+    },
+    {
+      "path": "agent_code/peaceful_agent/callbacks.py",
+      "bytes": 228,
+      "sha256": "0033213487bd71959f425e1c498f280073bd7706e7c0b5d23136c72ed87b708c"
+    },
+    {
+      "path": "agent_code/random_agent/callbacks.py",
+      "bytes": 250,
+      "sha256": "a43b9378c789dc9e1afc7fef0ee4de29aa0739d1d793aeef4dd896e9d2a90ed9"
+    },
+    {
+      "path": "agent_code/rule_based_agent/callbacks.py",
+      "bytes": 9125,
+      "sha256": "5fa209d1f31549573b87985ddee7dfa2984c15838e97620d740f1ec2a8773fca"
+    },
+    {
+      "path": "agent_code/Superfortress/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "agent_code/Superfortress/base.py",
+      "bytes": 3814,
+      "sha256": "96f0ff5acfc06cb9ddfdd33f671f4294c1f7c6e5daa906c04a96a295234dd9fa"
+    },
+    {
+      "path": "agent_code/Superfortress/callbacks.py",
+      "bytes": 3731,
+      "sha256": "8cfb6ffad9853098604e1d488fad0c593bfe3e31c67f90ea6af2648a91d631a8"
+    },
+    {
+      "path": "agent_code/Superfortress/dynamic.py",
+      "bytes": 2294,
+      "sha256": "53ed7818daeb78b59bd9ff11b5362d3197730ca7628113bbb7ab4020c0fab8a3"
+    },
+    {
+      "path": "agent_code/Superfortress/escape.py",
+      "bytes": 2538,
+      "sha256": "841e46a8a0d6baf7a496c79dae3a8d9ac2f92cb17fefb5534d9693695ae1b699"
+    },
+    {
+      "path": "agent_code/Superfortress/features.py",
+      "bytes": 9432,
+      "sha256": "97ce81c8682ec4037f9456098d89601a901cae22624c076f9ffec4f0023f1840"
+    },
+    {
+      "path": "agent_code/Superfortress/history.py",
+      "bytes": 7173,
+      "sha256": "447382d17f1aba12a5c296dbd8c7d6664f4e1aecc3954668be0f8ffa1baf738c"
+    },
+    {
+      "path": "agent_code/Superfortress/legacy_switching.py",
+      "bytes": 6151,
+      "sha256": "791584a9acbf0ca3c5637302c2a088d57a04fdd52a457d75bea318b19cb1a411"
+    },
+    {
+      "path": "agent_code/Superfortress/model.json",
+      "bytes": 711204,
+      "sha256": "7af75146369354d6162fa6b4311f5644ca489b418df543d79060f628fc9c5707"
+    },
+    {
+      "path": "agent_code/Superfortress/policy.json",
+      "bytes": 517,
+      "sha256": "df0fa36c17a4827b2aa00c614e1e62275132f67b5afe531ea164f71dd509bcd2"
+    },
+    {
+      "path": "agent_code/Superfortress/resource_inventory.py",
+      "bytes": 1865,
+      "sha256": "04b7a9832cff00c42ce88176d403dd364b022cdb90acdcd7476a17b33caf9a89"
+    },
+    {
+      "path": "agent_code/Superfortress/resource_proposal_guard.py",
+      "bytes": 1844,
+      "sha256": "452c43f47f600bcc6395bd3c3aae59a4da16a8afae1e55d6cde3119c5201a2ad"
+    },
+    {
+      "path": "agent_code/Superfortress/switching.py",
+      "bytes": 2126,
+      "sha256": "a82e9dcec4da54451e2750607b0335ef7e685edbefbc13bed20227bb24b3fb36"
+    },
+    {
+      "path": "agent_code/Superfortress/symmetry_maps.py",
+      "bytes": 483,
+      "sha256": "3ddb59702c15e70e10b2f26c88d790761221b2319d7272e329540c9bb1320387"
+    },
+    {
+      "path": "agent_code/tpl_agent/callbacks.py",
+      "bytes": 2931,
+      "sha256": "d032d65c0848d255fea0b28a68d5bf03b8f35986116171d64afba97e2a457c1e"
+    },
+    {
+      "path": "agent_code/tpl_agent/train.py",
+      "bytes": 3900,
+      "sha256": "0a1a4b96346492b4c755f935119b72a2fbd015998b943b0b9e9d27962a4b5709"
+    },
+    {
+      "path": "agent_code/tree_teacher/__init__.py",
+      "bytes": 82,
+      "sha256": "a15efe0bb881a8dc65427e7058cc5f292a19ce45a5842a10dbb8717bf47d7558"
+    },
+    {
+      "path": "agent_code/tree_teacher/callbacks.py",
+      "bytes": 2337,
+      "sha256": "641a320531f73feb05641255af911f5f2483e2bfdc68efcecb2c17173261e86d"
+    },
+    {
+      "path": "agent_code/tree_teacher/dynamic.py",
+      "bytes": 2294,
+      "sha256": "53ed7818daeb78b59bd9ff11b5362d3197730ca7628113bbb7ab4020c0fab8a3"
+    },
+    {
+      "path": "agent_code/tree_teacher/escape_wait.py",
+      "bytes": 1399,
+      "sha256": "726936cc6e0e4b13269fd8871960b3b267623dd9935fd3d2a0040239591be96c"
+    },
+    {
+      "path": "agent_code/tree_teacher/features.py",
+      "bytes": 9432,
+      "sha256": "97ce81c8682ec4037f9456098d89601a901cae22624c076f9ffec4f0023f1840"
+    },
+    {
+      "path": "agent_code/tree_teacher/model.pkl",
+      "bytes": 24964554,
+      "sha256": "b549995f80ab880bb3b64720bebf9d5db7f5186dcf71c67a15423174fe22bea1"
+    },
+    {
+      "path": "agent_code/tree_teacher/model.py",
+      "bytes": 4125,
+      "sha256": "8e8f2112a7726d4f1e41a6778aa94cb21a94e4382d087fac4a2f41f0b2f58201"
+    },
+    {
+      "path": "agent_code/tree_teacher/symmetry_maps.py",
+      "bytes": 483,
+      "sha256": "3ddb59702c15e70e10b2f26c88d790761221b2319d7272e329540c9bb1320387"
+    },
+    {
+      "path": "agent_code/tree_teacher/tactical.py",
+      "bytes": 2491,
+      "sha256": "21bd54d0cc7eec40a232164669bc00a09b1bfd70f1ca9d0a71785044b3cf0c3e"
+    },
+    {
+      "path": "agent_code/user_agent/avatar.png",
+      "bytes": 387,
+      "sha256": "919eeb0cb2926e67f90f148ade770e3b822bb8cdfbb639aab2825998af824cbe"
+    },
+    {
+      "path": "agent_code/user_agent/bomb.png",
+      "bytes": 1148,
+      "sha256": "ff27fa33a552a0a69837418868c44e46201ea2f14770401fb83e7dfeb412feb7"
+    },
+    {
+      "path": "agent_code/user_agent/callbacks.py",
+      "bytes": 165,
+      "sha256": "2b144331648a07a5f959d9d2be0112d07dcfe701148bb8f6c1fd2921e3d35e74"
+    },
+    {
+      "path": "agents.py",
+      "bytes": 12619,
+      "sha256": "eb8eff495666a8c51ede5f66f3785abbd0a24e60c3a8417432ada88b05e332a4"
+    },
+    {
+      "path": "assets/bomb_blue.png",
+      "bytes": 1173,
+      "sha256": "b0b222410c7404b7f95233e1bc92e6c8648c8a91ea91e50eb03dcc98fcd68286"
+    },
+    {
+      "path": "assets/bomb_green.png",
+      "bytes": 1183,
+      "sha256": "7864b19fc5519dd7c7d75cb83bd0b48abbdbe9b81c6b6b625732a8efd07525cf"
+    },
+    {
+      "path": "assets/bomb_pink.png",
+      "bytes": 1183,
+      "sha256": "da0cee211a79fdc3ea43d5981f815ddb43b1f31b297463a21327654fc8c62823"
+    },
+    {
+      "path": "assets/bomb_yellow.png",
+      "bytes": 1180,
+      "sha256": "e320d1d919d8d3ec3e1908d7c55dc0aa3478a177cf83ef3acf1193afbd47a401"
+    },
+    {
+      "path": "assets/brick.png",
+      "bytes": 1738,
+      "sha256": "f99a95542ace7e6ae4e5366ef388e3f809c0737324d8b59127b985ca08e3cfee"
+    },
+    {
+      "path": "assets/chest.png",
+      "bytes": 1617,
+      "sha256": "6d3f14fc7e8e1f2b85b75a7e278a0f0d347a4b30f177b000b24ade1e5477a4e1"
+    },
+    {
+      "path": "assets/coin.png",
+      "bytes": 2071,
+      "sha256": "aed05011755c3cde723bc50f3e241d70ffc9a75126f034a740f059f888b85a6d"
+    },
+    {
+      "path": "assets/crate.png",
+      "bytes": 2426,
+      "sha256": "754068ea647da32ce2f383707eceab7abd03d4e077382422a654a8a0e84c307f"
+    },
+    {
+      "path": "assets/emulogic.ttf",
+      "bytes": 45480,
+      "sha256": "0f0b99c1404ba7736cbf2eabcd8772d23fe06e8fd9dc0a2f280204ded9577db4"
+    },
+    {
+      "path": "assets/explosion_0.png",
+      "bytes": 1325,
+      "sha256": "f760363fd02728a9b5be094504359e347dd47fe68a89a361f3d6d894c34c16fc"
+    },
+    {
+      "path": "assets/explosion_1.png",
+      "bytes": 867,
+      "sha256": "734f73a9fb13e99225b0b2350f073981383286deceace9473e34ef8d333c1559"
+    },
+    {
+      "path": "assets/explosion_2.png",
+      "bytes": 511,
+      "sha256": "1a5e5469a9e39216200cc1dac1b7c827131f9c3d04a61d37d73bbf2b194220e4"
+    },
+    {
+      "path": "assets/explosion_3.png",
+      "bytes": 279,
+      "sha256": "f13dba5db738ff660046519544bda9ef36206e718651ce8c5d220c8dc6cb4c85"
+    },
+    {
+      "path": "assets/gold.png",
+      "bytes": 2174,
+      "sha256": "6c497812ed8b525ddd39fb33a06448caad51d1a410bcab5220ec5f7f0939bf6a"
+    },
+    {
+      "path": "assets/hourglass.png",
+      "bytes": 479,
+      "sha256": "efa9982a0bef3116e44d7e2ac9fbfa32a43d3c0da5c6a031b0db9c9009986d0f"
+    },
+    {
+      "path": "assets/robot_blue.png",
+      "bytes": 1903,
+      "sha256": "fe20765969f79746682394ae49848e8668680710fd00c0408ed96824a1b10223"
+    },
+    {
+      "path": "assets/robot_green.png",
+      "bytes": 1915,
+      "sha256": "d702f909cfeea7e2db361641e40d2c41997651eee7a399b0e8f9a01fc4c8101f"
+    },
+    {
+      "path": "assets/robot_pink.png",
+      "bytes": 1902,
+      "sha256": "725ac8c91d5964f03c5acab4047e7ed603c71a78366ac208fa4f4fe75dfb29c8"
+    },
+    {
+      "path": "assets/robot_yellow.png",
+      "bytes": 1865,
+      "sha256": "ef2a6136e1245e89ea450169b7609967ddc53093991d625a20b150e97452de68"
+    },
+    {
+      "path": "assets/smoke_0.png",
+      "bytes": 1651,
+      "sha256": "5d7677762c37c074a002264d37fbc2c6a51a9e0746260440573d3dd3ae2559ea"
+    },
+    {
+      "path": "assets/smoke_1.png",
+      "bytes": 2100,
+      "sha256": "37a73c0f5a1e9c471105d98dc3a8b43c97182ef4655857c26d45f8f864d34788"
+    },
+    {
+      "path": "Dockerfile",
+      "bytes": 448,
+      "sha256": "1e8ba48ca62815dd1ed0b402b8d26b668d20e22b8c64dba201e7004a6004dd4f"
+    },
+    {
+      "path": "environment.py",
+      "bytes": 27442,
+      "sha256": "911bcbc67dff77abb06c21d8803e13eb29a51b4ba92b54b66edf2cd827ae34ac"
+    },
+    {
+      "path": "events.py",
+      "bytes": 504,
+      "sha256": "bfbf114140e58f14679b3a992b45c93138d79d8b16fcc6d413f571a29136c75f"
+    },
+    {
+      "path": "evidence/submission.json",
+      "bytes": 1663,
+      "sha256": "8862fb6a340ee26b3793320bd59d05d295ef345c91c91d618d7c28ff518ac6e2"
+    },
+    {
+      "path": "evidence/tree_confirmation.json",
+      "bytes": 7621,
+      "sha256": "c7eb1fc5b996ed4b4f1d2a2a65a94aa25b6759c5666e1eec9d2c0be32cc41164"
+    },
+    {
+      "path": "fallbacks.py",
+      "bytes": 547,
+      "sha256": "f4bf32e0a9218c74521b2add7f6fb357cbbefa4d52fed56e7a2b358456516973"
+    },
+    {
+      "path": "items.py",
+      "bytes": 2974,
+      "sha256": "f3e23827ab4edb58efba66b8f38e0dd68f8bb721964518e020e9766a39bb16f2"
+    },
+    {
+      "path": "logs/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "main.py",
+      "bytes": 7402,
+      "sha256": "0e223947b44b2e1d1b0bbeb647dcae6f65535c3fe88999c2084bca1226c8ec95"
+    },
+    {
+      "path": "METHODS_INVENTORY.md",
+      "bytes": 26867,
+      "sha256": "20486ed916f2f738896f2fd8e7fa378840b048b88a33bbb3b50fbfca8785b7c7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4281,
+      "sha256": "16531f69729059b2d726b9d177533d54e54764e945eb22575fc0f67518b4b2fc"
+    },
+    {
+      "path": "release/final-project-agent-code.zip",
+      "bytes": 133468,
+      "sha256": "6f9af563c242bd4c6b787c7ded363db1fddfcf1d90de17de6f03d55b59bb4d0c"
+    },
+    {
+      "path": "replay.py",
+      "bytes": 3449,
+      "sha256": "89b0f37b2526c48360f29ede1a5010c4aa5e4644add77325bc6ec14bc9c1baaa"
+    },
+    {
+      "path": "replays/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 51,
+      "sha256": "5a8de211a58afd6c62fe977b4ca17e1035a8e5f1104f2d6d0a76670e20f00744"
+    },
+    {
+      "path": "research/index.json",
+      "bytes": 375091,
+      "sha256": "d0d6364f102a6c23577cc9e775ab4fdd48212ab4fc4205e5e2a48c07db8ecdc3"
+    },
+    {
+      "path": "research/README.md",
+      "bytes": 2656,
+      "sha256": "376ff7b8224427854ab814238ad0018813b5369ea4a07d9b771cc3665f6dc9eb"
+    },
+    {
+      "path": "research/source.zip",
+      "bytes": 6224740,
+      "sha256": "02c841c608c7c810d9ccf0940437e9961da07281adec8a7d1ad340871765743e"
+    },
+    {
+      "path": "restore_research.py",
+      "bytes": 1740,
+      "sha256": "9c0ff708a553d5ee8f3de137828947434613c3e65f758e3e48bb2d5f0fb0da47"
+    },
+    {
+      "path": "results/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "screenshots/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "settings.py",
+      "bytes": 1602,
+      "sha256": "3bddbf25c10a47b37e18e3838a1faaef711af2f53313397dd17158a6ac407fca"
+    },
+    {
+      "path": "test.py",
+      "bytes": 503,
+      "sha256": "4abc0b84a493f5fc58932067af38d0303f76d3b028bed5998438fd795a315fbb"
+    },
+    {
+      "path": "UPSTREAM.md",
+      "bytes": 1011,
+      "sha256": "fd8b5ba9da9c92294ade8639db362fe5748507836c6df32f47122af8407ccfcc"
+    },
+    {
+      "path": "verify_publication.py",
+      "bytes": 1520,
+      "sha256": "00e136371a71b142f82cf4f4b3e900ec400d7600912b63e8292d342ddeaea277"
+    }
+  ]
+}

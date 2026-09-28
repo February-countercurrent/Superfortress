@@ -1,0 +1,15 @@
+{
+  "agent": "Superfortress",
+  "episodes": 1150,
+  "model_sha256": "7af75146369354d6162fa6b4311f5644ca489b418df543d79060f628fc9c5707",
+  "features": 16,
+  "blocks": 7,
+  "resource_mode": "E",
+  "total_coins": 9,
+  "default_seed": 42,
+  "policy": "Adopted block Q; D4 average, dynamic escape, urgent correction, guarded resource commitment",
+  "inference_only": true,
+  "environmental_overrides": false,
+  "ai_assisted": true,
+  "note": "Student review and understanding are required; this metadata is descriptive."
+}
