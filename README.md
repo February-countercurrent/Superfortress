@@ -2,7 +2,7 @@
 
 Bomberman reinforcement learning for Machine Learning Essentials, Summer Semester 2026.
 
-This repository presents two trained agents directly. Complete training, evaluation, diagnostic and historical model source code is included in [`research/source.zip`](research/source.zip), with a one-command extraction tool. The report manuscript is not included.
+This repository presents two trained agents directly. Complete training, evaluation, diagnostic and historical model source code is included in [`research/source.zip`](research/source.zip), with a one-command extraction tool.
 
 | Agent | Method | Role |
 | --- | --- | --- |
@@ -35,15 +35,6 @@ A strict win is a uniquely highest final game score. The tree comparison has a 9
 
 Original summaries: [`evidence/submission.json`](evidence/submission.json) and [`evidence/tree_confirmation.json`](evidence/tree_confirmation.json). Other report evidence is inside the research archive at its original relative paths.
 
-## Complete source and historical models
-
-```sh
-python restore_research.py
-```
-
-This expands the full research source and selected experiment records into `research/workspace/`, restoring the original layout and copying the two provided checkpoints to their original locations. All developed model implementations, including early tabular agents, DQN and unsuccessful variants, remain available there. Exact duplicate historical source snapshots are also restored.
-
-Historical trained weights and raw trajectory datasets are omitted from this small upload. The two main agents run immediately; rerunning older experiments may require retraining or recollecting data. Frozen-result reproduction is therefore limited to the artifacts actually included. See [`research/README.md`](research/README.md) and [`METHODS_INVENTORY.md`](METHODS_INVENTORY.md) for entry points and development history. Restoring the archive does not overwrite modified files.
 
 ## Contents
 
@@ -52,5 +43,3 @@ Historical trained weights and raw trajectory datasets are omitted from this sma
 - `research/`: complete research source archive, integrity index and extraction instructions.
 - `release/final-project-agent-code.zip`: unchanged single-agent competition submission.
 - `verify_publication.py`: verifies files, source archive and protected model/package hashes.
-
-The game framework and original opponents come from [ukoethe/bomberman_rl](https://github.com/ukoethe/bomberman_rl); source revision and attribution are in [`UPSTREAM.md`](UPSTREAM.md). Development and documentation received substantial AI assistance. No university report or course handout is included, and no new license is assigned to upstream code or assets.
